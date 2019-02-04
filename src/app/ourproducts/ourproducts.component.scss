@@ -1,0 +1,95 @@
+.opacityeffecet:hover {
+    background-color: rgba(0, 0, 0, 0);
+    transition: .5s ease;
+}
+.opacityeffecet {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 94%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    transition: .5s ease;
+    cursor: pointer;
+    margin: auto;
+    border: 5px solid #f5f5f5;
+}
+.arrow-up {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid rgba(61, 37, 131,0.95);
+    left: 45%;
+    top: 8px;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 60px;
+    transition: .5s ease;
+    cursor: pointer;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    overflow: hidden;
+}
+.overlay .overlay-caption {
+    height: 100%;
+    top: 0px;
+    margin: 0px 0px;
+    background-color: rgba(61, 37, 131,0.95);
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+.overlay-image {
+    display: block;
+    height: auto;
+    border: 0px solid #f5f5f5;
+    border-radius: 5%;
+    cursor: pointer;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    width: 100%;
+    height: 300px;
+}
+.navbar-inverse {
+    background-image: none;
+}
+.navbar-inverse {
+    border: 0px solid #f5f5f5;
+    background-color: rgba(255, 255, 255, 0);
+    font-weight: 500;
+}
+.navbar {
+    margin-bottom: 0px!important;
+}
+.graybg-subpage {
+    background: #7987ca;
+    padding: 10px 0px;
+}
+.opacityeffecet {
+    border-radius: 5%;
+    overflow: hidden;
+}
+.overlay-container a {
+    color: #FFF;
+}
+.marTop30px{
+    margin-top: 30px;
+}
+.text-center {
+    text-align: center;
+}
+.fontMedium {
+    font-size: 1.5em;
+    font-weight: normal!important;
+}
+.padTop10px {
+    padding-top: 10px;
+}

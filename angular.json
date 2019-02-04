@@ -27,9 +27,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "node_modules/angular-bootstrap-md/scss/bootstrap/bootstrap.scss",
+              "node_modules/font-awesome/scss/font-awesome.scss",
+              "src/styles.scss"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.js"
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {
